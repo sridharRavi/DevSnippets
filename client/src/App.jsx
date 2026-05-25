@@ -3,7 +3,7 @@ import axios from "axios"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism"
 
-const API = "https://dashboard.render.com/web/srv-d8a32vog4nts73d4cegg"
+const API = "https://devsnippets-xiue.onrender.com/api/snippets"
 function App() {
   const [snippets, setSnippets] = useState([])
   const [form, setForm] = useState({
