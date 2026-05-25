@@ -10,7 +10,7 @@ const prisma = new PrismaClient()
 
 app.use(cors(
     {
-        origin: "https://dev-snippets-eta.vercel.app/"
+        origin: "https://dev-snippets-eta.vercel.app"
     }
 ))
 app.use(express.json())
